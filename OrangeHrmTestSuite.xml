@@ -1,0 +1,18 @@
+<suite name = "OrangeHRM Test Suite">
+	<Test name = "Admin Login Testcase with valid Data">
+		<parameter name = "adminuid" value ="Admin"></parameter>
+		<parameter name = "adminpwd" value ="Qedge123!@#"></parameter>
+		<classes>
+			<class name ="Orangehrm.testcases.AdminLoginTest"></class>
+		</classes>	
+	</Test>
+	
+	<Test name = "Admin Login Testcase with Invalid Data">
+		<parameter name = "adminuid" value = "abc"></parameter>
+		<parameter name = "adminpwd" value = "xyz"></parameter>
+		<classes>
+			<class name ="Orangehrm.testcases.AdminLoginTestwithInvalidData"></class>
+		</classes>	
+	</Test>
+	
+</suite>
